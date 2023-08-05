@@ -1,0 +1,117 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.Seccion1 {
+  background-image: url(/fondos/fondo5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.Titulo {
+  margin: 10px;
+  padding: 10px;
+}
+
+.Subtitulo {
+  margin: 15px;
+  padding: 15px;
+}
+
+.Texto1 {
+  margin: 40px;
+}
+
+.imagenes {
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+}
+.Seccion2 {
+  background-image: url(/fondos/fondo4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*fondo de la sección de nuevas tendencias  */
+#Seccion {
+  background-image: url(/fondos/fondo7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+  margin: 10%;
+  border: 0;
+  background-image: linear-gradient(150deg,
+  #9500ff,
+  #09f,
+  #00DDFF
+  );
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button span {
+  background-color: #111;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: .3s;
+}
+
+button:hover span {
+  background: none;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+p.texto {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.imagen {
+  margin: 15px;
+  height: 300px;
+}
+
+/* fondo de la sección de Ultimas novedades*/
+#novedades {
+  background-image: url(/fondos/fondo10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.juegos {
+  background-image: url(/fondos/fondo9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Sobre {
+  background-image: url(/fondos/fondo10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
